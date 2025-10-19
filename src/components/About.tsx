@@ -28,12 +28,7 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-            <div className="text-center p-6 rounded-xl bg-card border border-border hover:shadow-glow transition-all duration-300">
-              <div className="text-3xl font-bold gradient-text mb-2">6.87</div>
-              <div className="text-sm text-muted-foreground">CGPA</div>
-            </div>
-            
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
             <div className="text-center p-6 rounded-xl bg-card border border-border hover:shadow-glow transition-all duration-300">
               <div className="text-3xl font-bold gradient-text mb-2">2+</div>
               <div className="text-sm text-muted-foreground">Internships</div>
